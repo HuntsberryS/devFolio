@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+}
+.cursor {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(rgb(255, 255, 255) 8%, rgb(168, 6, 255));
+  filter: blur(100px);
+  border-radius: 100%;
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: all 0s;
+}
+.section1 {
+  background-image: url("1.jpg");
+  background-size: cover;
+  background-position: 70%;
+  background-repeat: no-repeat;
+  display: grid;
+  height: 100vh;
+  background-color: black;
+  grid-template-columns: 1fr 1fr;
+}
+.container {
+  color: whitesmoke;
+}
+.section1 h1 {
+  font-size: 94px;
+  background-color: hsla(0, 0%, 0%, 0);
+}
+
+.title {
+  color: whitesmoke;
+  padding: 20px;
+}
+.nav_container {
+  position: fixed;
+  margin-left: 90%;
+  padding: 50px;
+  height: 100vh;
+  background-color: black;
+}
+
+.icon:hover {
+  background-color: Lavender;
+}
+
+.link {
+  color: lavender;
+  text-align: center;
+}
