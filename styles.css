@@ -5,21 +5,21 @@ body {
   width: 200px;
   height: 200px;
   background: linear-gradient(
-    to right,
-    red,
-    orange,
-    yellow,
-    green,
-    blue,
-    indigo,
-    violet
+    89.7deg,
+    rgba(223, 0, 0, 1) 2.7%,
+    rgba(214, 91, 0, 1) 15.1%,
+    rgba(233, 245, 0, 1) 29.5%,
+    rgba(23, 255, 17, 1) 45.8%,
+    rgba(29, 255, 255, 1) 61.5%,
+    rgba(5, 17, 255, 1) 76.4%,
+    rgba(202, 0, 253, 1) 92.4%
   );
-  filter: blur(100px);
+  filter: blur(120px);
   border-radius: 100%;
   position: fixed;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  transition: all 0s;
+  transition: all 0.01s;
 }
 .section1 {
   background-image: url("background.jpg");
@@ -62,4 +62,61 @@ a {
 .projectContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.project {
+  background-color: whitesmoke;
+  border: solid 20px black;
+  text-align: center;
+  height: 400px;
+  justify-content: center;
+
+  align-content: center;
+}
+
+.projectTitle {
+  color: whitesmoke;
+  padding: 50px;
+  font-size: 32px;
+}
+
+.contactTitle {
+  color: whitesmoke;
+  padding: 50px;
+  font-size: 32px;
+}
+.contactContainer {
+  margin: 75px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+input {
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  width: 500px;
+}
+
+.contactTextBox {
+  width: 500px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.submitButton {
+  width: 150px;
+  border: none;
+
+  background: linear-gradient(
+    50deg,
+    rgba(223, 0, 0, 1) 2.7%,
+    rgba(214, 91, 0, 1) 15.1%,
+    rgba(233, 245, 0, 1) 29.5%,
+    rgba(23, 255, 17, 1) 45.8%,
+    rgba(29, 255, 255, 1) 61.5%,
+    rgba(5, 17, 255, 1) 76.4%,
+    rgba(202, 0, 253, 1) 92.4%
+  );
 }

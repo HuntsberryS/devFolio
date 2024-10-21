@@ -1,34 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
 
-    <title>Document</title>
-</head>
-<body>
-  <div class="navbar">
-        <a href="/ Resume.pdf" download="resume_Huntsberry" class="link">Resume</a>
-        <a href="https://github.com/HuntsberryS" class="link">Github</a>
-        <a href="/index.html" class="link">Home page</a>
-        <a href="/projects.html" class="link">Projects</a>
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="/ Resume.pdf" download="resume_Huntsberry" class="link"
+        >Resume</a
+      >
+      <a href="https://github.com/HuntsberryS" class="link">Github</a>
+      <a href="/index.html" class="link">Home page</a>
+      <a href="/projects.html" class="link">Projects</a>
+      <a href="https://www.shecodes.io/graduates/104306-shiloh-huntsberry" class="link">SheCodes</a>
 
+      <div class="cursor"></div>
+    </div>
 
-      </div> 
+    <h1 class="contactTitle">Let's stay in touch</h1>
+    <hr />
     <div class="contactContainer">
-            <div class="cursor"></div>
-
-          <h1>Let's stay in touch</h1>
-          <form>
-            <input type="text" value="Full Name" />
-            <input type="text" value="Description" class="contactTextBox" />
-
-            <input type="submit" value="Send" />
-          </form>
+      <form class="contact">
+        <div class="formInput">
+          <input type="text" value="Full Name" required />
         </div>
+        <br />
+        <div class="formInput">
+          <input type="email" value="Email" required />
+        </div>
+        <br />
+        <div class="formInput">
+          <input
+            type="text"
+            value="Description"
+            class="contactTextBox"
+            required
+          />
+        </div>
+        <br/>
+        <div class="formSubmit">
+            <input type="submit" value="Submit" class="submitButton" />
+          </div>
+        </div>
+      </form>
+      <div class="contactImage">
+        <img src="#" />
       </div>
-          <script src="index.js"></script>
 
-</body>
+      <div class="contactImage">
+        <img src="#" alt="herhwe"/>
+      </div>
+
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>
