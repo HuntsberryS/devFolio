@@ -104,16 +104,19 @@ input {
   padding: 10px;
   border: none;
   border-radius: 20px;
-  background: radial-gradient(
-    circle at -8.9% 51.2%,
-    rgb(255, 162, 0) 0%,
-    rgb(255, 203, 81) 15.9%,
-    rgb(253, 249, 0) 15.9%,
-    rgb(255, 249, 139) 24.4%,
-    rgb(251, 250, 212) 24.5%,
-    rgb(255, 255, 255) 66%
+  background: linear-gradient(
+    89.9deg,
+    rgb(208, 246, 255) 0.1%,
+    rgb(255, 237, 237) 47.9%,
+    rgb(255, 255, 231) 100.2%
   );
 }
+
+.buttonDisplay {
+  display: grid;
+  justify-content: center;
+}
+
 .contactDetails {
   font-size: 20px;
   color: white;
