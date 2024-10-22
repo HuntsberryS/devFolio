@@ -59,20 +59,23 @@ a {
   color: white;
 }
 
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 200px;
+  grid-gap: 70px;
+}
 .projectContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-around;
-  margin: 50px;
+  margin: 75px;
 }
-
 .project {
   background-color: whitesmoke;
   border: solid 20px black;
   text-align: center;
   height: 400px;
   justify-content: center;
-
   align-content: center;
 }
 
@@ -82,16 +85,6 @@ a {
   font-size: 32px;
 }
 
-.contactTitle {
-  color: whitesmoke;
-  padding: 50px;
-  font-size: 32px;
-}
-.contactContainer {
-  margin: 75px;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-}
 input {
   border-radius: 20px;
   border: none;
@@ -107,16 +100,28 @@ input {
 
 .submitButton {
   width: 150px;
+  font-size: 14px;
+  padding: 10px;
   border: none;
-
-  background: linear-gradient(
-    50deg,
-    rgba(223, 0, 0, 1) 2.7%,
-    rgba(214, 91, 0, 1) 15.1%,
-    rgba(233, 245, 0, 1) 29.5%,
-    rgba(23, 255, 17, 1) 45.8%,
-    rgba(29, 255, 255, 1) 61.5%,
-    rgba(5, 17, 255, 1) 76.4%,
-    rgba(202, 0, 253, 1) 92.4%
+  border-radius: 20px;
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 162, 0) 0%,
+    rgb(255, 203, 81) 15.9%,
+    rgb(253, 249, 0) 15.9%,
+    rgb(255, 249, 139) 24.4%,
+    rgb(251, 250, 212) 24.5%,
+    rgb(255, 255, 255) 66%
   );
+}
+.contactDetails {
+  font-size: 20px;
+  color: white;
+}
+h2 {
+  color: white;
+}
+
+.learnMoreButton {
+  width: 150px;
 }
